@@ -1,0 +1,28 @@
+{
+  "name": "fsdmasterdetail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfchan17/fsdMasterDetail.git"
+  },
+  "author": "ccf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cfchan17/fsdMasterDetail/issues"
+  },
+  "homepage": "https://github.com/cfchan17/fsdMasterDetail#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql2": "^2.2.5"
+  },
+  "engines": {
+    "node": "15.x"
+  }
+}

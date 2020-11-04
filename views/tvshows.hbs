@@ -1,0 +1,12 @@
+<div class="row mt-3 mb-3">
+    <div class="col">
+        <h3>TV Shows</h3>
+    </div>
+</div>
+{{#each tvshows}}
+<div class="row">
+    <div class="col">
+        <a href="/getDetail/{{this.tvid}}">{{this.name}}</a>
+    </div>
+</div>
+{{/each}}
